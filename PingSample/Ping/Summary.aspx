@@ -43,7 +43,7 @@
                 const ping_interval = 10000;  // ms
                 
                 // {
-                //   IP
+                //   Ip
                 //   RoundtripTime
                 //   Status
                 //   timeoutInstance
