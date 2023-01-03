@@ -11,16 +11,21 @@ namespace PingSample
 {
 
 
-    public partial class SiteMaster
+    public partial class _Summary
     {
 
         /// <summary>
-        /// MainContent control.
+        /// Master property.
         /// </summary>
         /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
+        /// Auto-generated property.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        public new PingSample.SiteMaster Master
+        {
+            get
+            {
+                return ((PingSample.SiteMaster)(base.Master));
+            }
+        }
     }
 }
